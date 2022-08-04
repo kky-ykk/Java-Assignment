@@ -1,0 +1,17 @@
+Here each payer will buy coin before playing game.
+its end when players left with no coins. 
+
+New things added are
+1)int buycoin() in Player class
+	it is through player buy coin and it is return in p1_coin,p2_coin,p3_coin of umpire member  variable
+2)void getCoins()
+	responsible for calling buycoin() foreach function and returning value to p1_coin,p2_coin,p3_coin
+3)void showCoins()
+	show avaible coins for each player after each round
+4)void RemovePreValue()
+	remove  previous round gussed value of each value by -1
+5)boolean check(int player1,int player2,int player3)
+	check which player win and add 100 more coin if player win and makes their coins half if loose
+	also check which player is with enough coins to proceed with game
+6)changes in void compare() 
+	while loop which will run till player have coins 
