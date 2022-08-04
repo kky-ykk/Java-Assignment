@@ -1,5 +1,5 @@
-Here each payer will buy coin before playing game.
-its end when players left with no coins. 
+***Here each payer will buy coin before playing game.
+its end when players left with no coins.*** 
 
 New things added are
 1)int buycoin() in Player class
